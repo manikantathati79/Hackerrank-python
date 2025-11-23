@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n1=int(input())
+n2=int(input())
+s1=(n1//n2,n1%n2)
+print(n1//n2)
+print(n1%n2)
+print(s1)
