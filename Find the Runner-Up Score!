@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    s1=set(arr)
+    s2=list(s1)
+    s2.sort()
+    print(s2[-2])
