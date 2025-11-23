@@ -1,0 +1,7 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+s1=int(input())
+n1=set(map(int,input().split()))
+s2=int(input())
+n2=set(map(int,input().split()))
+n3=n1.union(n2)
+print(len(n3))
